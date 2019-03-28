@@ -1,0 +1,116 @@
+Operaciones matemáticas
+   +  Suma
+   -  Resta
+   *  Multiplicación
+   /  División
+   () Cambio de prioridad
+   -3 Cambio de signo
+
+Comparaciones -> devuelve True o False
+   ==  Igual
+   !=  Distintos
+   <   Menor
+   >   Mayor
+   <=  Menor igual
+   >=  Mayor igual
+   
+Estructura de control IF
+  if (var1 comp var2) {
+     // se ejecuta esto si es verdadero
+  }
+  else { // esto es opcional
+     // se ejecuta esto si es falso
+  }
+
+1- Hacer un programa que calcula perímetro y superficie de un rectángulo
+2- Hacer un programa que calcula perímetro y superficie de un círculo
+3- Hacer un programa que pide un número y determina si es positivo o
+   negativo
+4- Hacer un programa que pide dos números e indica cuál es el mayor
+5- Hacer un programa que pide nombre y edad de dos personas y muestra
+   el nombre de la persona más jóven
+
+6- Hacer un programa que pide el radio de un círculo y los lados de un
+   rectángulo y determina cuál de las dos figuras tiene mayor superficie
+7- (!) Hacer un programa que pide tres (3) números y determina el mayor
+
+8- (!) Hacer un programa que permite calcular cuántos recipientes usar
+   para almacenar artículos. Pedir al usuario cantidad de elementos a
+   guardar y capacidad del recipiente y dar como resultado la cantidad
+   de recipientes necesarios y la cantidad de productos sobrantes.
+   Ej. Caja de Té para 20 saquitos, cantidad 110 saquitos, entonces se
+       necesitan 5 cajas y sobre 10 saquitos de Té
+   NOTA: La división entre enteros da como resultado un valor entero.
+         El resto de la división al entero se obtiene con el operador %.
+
+9- (!) Dado un monto en pesos (entero) informar la menor cantidad de
+   monedas y billetes por cada denominación para entregar.
+   Los billetes son de    $1000, $500, $200, $100, $50, $20, $10, $5
+   y monedas de $2 y $1.
+   Ej. para $2713 debe mostrar por pantalla
+     2 billetes de $1000
+     1 billetes de  $500
+     1 billetes de  $200
+     0 billetes de  $100
+     0 billetes de   $50
+     0 billetes de   $20    
+     1 billetes de   $10    
+     0 billetes de    $5
+     1 monedas de     $2
+     1 monedas de     $1
+
+10- Repetir el programa para evitar mostrar las denominaciones cuya
+    cantidad es cero (0)
+    
+11- Al programa anterior, agregar que muestre la cantidad total
+    de billetes y monedas necesarios.     
+
+12- Hacer un programa que pide al usuario las coordenadas de un punto
+    y verifica si pertenece o no a un rectangulo con extremos
+     (-2, 1) y (3, 3)
+
+
+
+13- Hacer un programa que muestra los valores enteros entre 55 y 65
+
+14- Hacer un programa que muestra los enteros impares entre -11 y 11,
+    inclusive ambos valores.
+
+15- Hacer un programa que pide al usuario dos valores enteros e
+    imprime en orden ascendente todos los enteros entre esos números
+
+16- Modificar el programa anterior para que se pueda ingresar los
+    valores en cualquier orden
+
+17- Hacer un programa que pide la cantidad de números a ingresar.
+    Luego de ingresar los datos, imprime en pantalla el mayor y
+    el menor
+
+18- Hacer un programa que pide la cantidad de números a ingresar.
+    Luego de ingresar los datos, imprime en pantalla la cantidad
+    de valores pares e impares
+
+19- Hacer un programa que pide la cantidad de números a ingresar.
+    Luego de ingresar los datos, imprime en pantalla la cantidad
+    de valores negativos ingresados y la suma de los pares.
+
+
+
+20- Al programa ejemplo con while agregar que cuando pida un nro
+    imprima el nro de orden, ej:
+     Ingrese el nro 1: 3
+     Ingrese el nro 2: 5
+     Ingrese el nro 3: 8
+
+21- Hacer un programa utilizando while que pide al usuario una secuencia
+    valores entre 0 y 20 (incluidos). Al ingresar el primer valor fuera de
+    rango, el programa debe terminar y mostrar por pantalla la cantidad
+    valores pares e impares ingresados.
+
+
+
+22- Hacer un programa que pide al usuario un nro y determina
+    si el valor ingresado es primo.
+     
+
+
