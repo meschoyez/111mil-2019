@@ -113,4 +113,9 @@ Estructura de control IF
     si el valor ingresado es primo.
      
 
+23- Hacer un programa que pide al usuario una secuencia de números
+    positivos y al finalizar determina si TODOS fueron impares.
+    El programa termina al ingresar un valor negativo.
+
+
 
