@@ -119,3 +119,16 @@ Estructura de control IF
 
 
 
+Colecciones -> ArrayList
+
+24- Pedir al usuario que ingrese un número x de palabras. Al finalizar
+    la carga, mostrar por consola la palabra más larga (si hay más de
+    una con la misma longitud, mostrar la primera encontrada)
+    --usar método length() de String--
+
+25- Modifique el programa anterior para que cuente la cantidad de letras
+    ingresadas por el usuario entre todas las palabras.
+
+
+
+    
