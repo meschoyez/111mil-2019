@@ -130,5 +130,25 @@ Colecciones -> ArrayList
     ingresadas por el usuario entre todas las palabras.
 
 
+NOTA: Para los próximos ejercicios, primero se deben cargar los datos
+      en la colección. Luego, se busca el resultado recorriendo la
+      colección.
 
-    
+   
+26- Hacer un programa que pide la cantidad de números a ingresar y los
+    almacena en un ArrayList. Luego de ingresar los datos, busca e imprime
+    en pantalla el mayor y el menor
+
+27- Hacer un programa que pide la cantidad de números a ingresar.
+    Luego de ingresar los datos en un ArrayList, imprime en pantalla la
+    cantidad de valores pares e impares
+
+28- Hacer un programa que pide la cantidad de números a ingresar.
+    Luego de ingresar los datos en un ArrayList, imprime en pantalla la
+    cantidad de valores negativos ingresados y la suma de los pares
+    (hacer la búsqueda y la suma por separado)
+
+29- Hacer un programa que pide al usuario una secuencia de números
+    positivos y al finalizar determina si TODOS fueron impares.
+    El programa termina al ingresar un valor negativo.
+
