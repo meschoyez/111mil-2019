@@ -152,3 +152,21 @@ NOTA: Para los próximos ejercicios, primero se deben cargar los datos
     positivos y al finalizar determina si TODOS fueron impares.
     El programa termina al ingresar un valor negativo.
 
+
+Utilizando métodos y la clase Random
+
+30- Hacer un programa que pide al usuario una cantidad de números a
+    generar. Mediante Random se generan valores menores a 100 que se
+    almacenan en un ArrayList. Luego, se pide otro valor al usuario y
+    se verifica si existe ese número dentro de la lista.
+
+31- Hacer un programa que pide al usuario una cantidad de números a
+    generar. Mediante Random se generan valores entre -100 y 100 que se
+    almacenan en un ArrayList. Luego, se cuenta la cantidad de negativos,
+    positivos y ceros dentro de la lista.
+
+32- Modificar el programa anterior incorporando la búsqueda del mayor
+    y del menor dentro de la lista.
+
+
+
