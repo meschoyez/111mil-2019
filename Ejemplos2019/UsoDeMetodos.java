@@ -43,7 +43,7 @@ public class UsoDeMetodos {
     public void GenerarNrosAleatorios(ArrayList<Integer> nros, Integer c) {
         Random r = new Random();
         for (int i = 0; i < c; i++) {
-            nros.add(r.nextInt(100));
+            nros.add(r.nextInt(41)-20);
         }
     }
     
