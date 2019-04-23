@@ -170,3 +170,23 @@ Utilizando métodos y la clase Random
 
 
 
+33- Hacer un que genera al azar una lista de 100 números de 1 dígito.
+    Mediante un método determinar la cantidad de veces que apareció
+    cada valor.
+
+34- Al programa anterior agregarle un método que indique cuál es el
+    valor que apareció más veces.
+
+
+35- Hacer un programa que pide al usuario una cantidad de números a
+    generar. Mediante Random se generan valores entre 0 y 1000 que se
+    almacenan en un ArrayList. Hacer un método que calcula el valor
+    promedio.
+
+36- Al programa anterior, agregarle un método que reemplaza los valores
+    menores a 10 por el valor 10. Luego de utilizado este método,
+    volver a calcular el promedio.
+
+37- Al programa anterior, agregarle un método que genera un nuevo
+    ArrayList con los valores en un rango indicado por el usuario.
+    Luego, calcular el promedio de ese nuevo arreglo.
