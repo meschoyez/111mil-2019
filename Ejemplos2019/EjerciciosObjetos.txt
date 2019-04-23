@@ -1,0 +1,21 @@
+ Ejercicios con las clases de Figuras Geométricas
+ 
+ 1- Agregar a la clase Triángulo los métodos:
+	 + Superficie
+	 + Perimetro
+	para que tenga las mismas funcionalidades que Rectángulo.
+	
+ 2- Agregar a las clases Rectángulo y Triángulo el setter y el getter
+    del color.
+    
+ 3- Agregar a la clase Rectángulo el método:
+      public Boolean EsCuadrado ()
+      
+ 4- Agregar la nueva clase Círculo con las siguientes funcionalidades:
+     + campos: radio y color
+     + setter y getter de radio
+     + setter y getter de diámetro
+     + setter y getter de color
+     + Superficie
+     + Perímetro
+     
