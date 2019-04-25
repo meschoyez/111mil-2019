@@ -19,3 +19,6 @@
      + Superficie
      + Perímetro
      
+ 5- Agregar a las clases Círculo y Triangulo los campos de posición,
+    sus setter y getters y un constructor que reciba estos valores
+    (replicar lo hecho en clase a Rectángulo)
