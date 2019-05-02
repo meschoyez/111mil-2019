@@ -22,3 +22,9 @@
  5- Agregar a las clases Círculo y Triangulo los campos de posición,
     sus setter y getters y un constructor que reciba estos valores
     (replicar lo hecho en clase a Rectángulo)
+
+ 6- Modificar el método main para que:
+    a- Construya un objeto gráfico de cada tipo
+    b- Muestre los objetos gráficos en el canvas
+    c- Haga que el rectángulo se mueva a la derecha, el triángulo hacia
+       arriba y el círculo en diagonal hacia abajo a la izquierda

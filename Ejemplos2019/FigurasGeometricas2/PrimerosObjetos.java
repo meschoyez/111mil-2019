@@ -5,11 +5,14 @@
  */
 package primerosobjetos;
 
+import java.awt.Color;
+
 /**
  *
  * @author meschoyez
  */
 public class PrimerosObjetos {
+    private Canvas miCanvas;
 
     /**
      * @param args the command line arguments
@@ -37,11 +40,27 @@ public class PrimerosObjetos {
         System.out.println("R2 tiene sup. = " + superficie
                 + " y per. = " + perimetro);
         
-        PelotasDemo p;
-        p = new PelotasDemo();
+//        PelotasDemo p;
+//        p = new PelotasDemo();
 //        p.rebotar();
-        p.demoDibujar();
-        
+//        p.demoDibujar();
+
+        PrimerosObjetos pantalla = new PrimerosObjetos();
+        pantalla.GraficarFiguras();
+
     }
+
+    private void GraficarFiguras() {
+        miCanvas = new Canvas("Figuras Geometricas", 600, 500);
+        miCanvas.setVisible(true);
+
+        miCanvas.setColorDeLapiz(Color.red);
+        miCanvas.rellenarRectangulo(300, 300, 100, 50);
+
+        miCanvas.setColorDeLapiz(Color.blue);
+        miCanvas.rellenarCirculo(300, 300, 100);
+
+    }
+
     
 }
