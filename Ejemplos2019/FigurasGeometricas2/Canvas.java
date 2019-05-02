@@ -131,6 +131,17 @@ public class Canvas
     }
 
     /**
+     * Rellena un rect�ngulo con el color de lapiz del canvas
+     */
+    public void rellenarTriangulo(int xPos, int yPos, int ancho, int alto)
+    {
+        int[] xpoints = { xPos, xPos + (ancho/2), xPos - (ancho/2) };
+        int[] ypoints = { yPos, yPos + alto, yPos + alto };
+        rellenar(new Polygon(xpoints, ypoints, 3));
+     
+    }
+
+    /**
      * Borra todo el canvas
      */
     public void borrar()

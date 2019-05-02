@@ -58,7 +58,10 @@ public class PrimerosObjetos {
         miCanvas.rellenarRectangulo(300, 300, 100, 50);
 
         miCanvas.setColorDeLapiz(Color.blue);
-        miCanvas.rellenarCirculo(300, 300, 100);
+        miCanvas.rellenarCirculo(100, 100, 100);
+
+        miCanvas.setColorDeLapiz(Color.green);
+        miCanvas.rellenarTriangulo(400, 0, 100, 200);
 
     }
 
