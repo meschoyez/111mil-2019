@@ -5,6 +5,8 @@
  */
 package primerosobjetos;
 
+import java.awt.Color;
+
 /**
  *
  * @author meschoyez
@@ -12,15 +14,18 @@ package primerosobjetos;
 public class Rectangulo {
     private Double largo, ancho;
     private Integer x, y;
-    private String color;
+    //private String color;
+    private Color color;
     
-    public Rectangulo (Double l, Double a, String c) {
+//    public Rectangulo (Double l, Double a, String c) {
+    public Rectangulo (Double l, Double a, Color c) {
         largo = l;
         ancho = a;
         color = c;
     }
     
-    public Rectangulo (Double l, Double a, String c, Integer x, Integer y) {
+//    public Rectangulo (Double l, Double a, String c, Integer x, Integer y) {
+    public Rectangulo (Double l, Double a, Color c, Integer x, Integer y) {
         largo = l;
         ancho = a;
         color = c;
@@ -78,5 +83,19 @@ public class Rectangulo {
      */
     public void setY(Integer y) {
         this.y = y;
+    }
+
+    /**
+     * @return the color
+     */
+    public Color getColor() {
+        return color;
+    }
+
+    /**
+     * @param color the color to set
+     */
+    public void setColor(Color color) {
+        this.color = color;
     }
 }

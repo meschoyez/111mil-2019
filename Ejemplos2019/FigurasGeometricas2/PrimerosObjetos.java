@@ -18,8 +18,8 @@ public class PrimerosObjetos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Rectangulo r1 = new Rectangulo(10.0, 15.0, "Negro");
-        Rectangulo r2 = new Rectangulo(3.5, 4.5, "Rojo");
+        Rectangulo r1 = new Rectangulo(10.0, 15.0, Color.BLUE);
+        Rectangulo r2 = new Rectangulo(3.5, 4.5, Color.GREEN);
         
         System.out.println("R1 tiene largo = " + r1.getLargo()
                         + " y ancho = " + r1.getAncho());

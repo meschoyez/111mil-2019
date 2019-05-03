@@ -28,3 +28,7 @@
     b- Muestre los objetos gráficos en el canvas
     c- Haga que el rectángulo se mueva a la derecha, el triángulo hacia
        arriba y el círculo en diagonal hacia abajo a la izquierda
+
+ 7- Modificar las clases Rectangulo, Circulo y Triangulo para
+    que el color sea de la clase Color y no String. Agregar los
+    setters y getters necesarios.
