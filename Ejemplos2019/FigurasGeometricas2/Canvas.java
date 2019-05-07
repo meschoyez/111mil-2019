@@ -137,8 +137,7 @@ public class Canvas
     {
         int[] xpoints = { xPos, xPos + (ancho/2), xPos - (ancho/2) };
         int[] ypoints = { yPos, yPos + alto, yPos + alto };
-        rellenar(new Polygon(xpoints, ypoints, 3));
-     
+        rellenar(new Polygon(xpoints, ypoints, 3));     
     }
 
     /**
@@ -171,6 +170,17 @@ public class Canvas
     public void borrarRectangulo(int xPos, int yPos, int ancho, int alto)
     {
         borrar(new Rectangle(xPos, yPos, ancho, alto));
+    }
+
+    /**
+     *  Borra un tri�ngulo con las dimensiones especificadas del canvas
+     *  Podr�a utilizarse tambi�n el m�todo borrar para esta tarea.
+     */
+    public void borrarTriangulo(int xPos, int yPos, int ancho, int alto)
+    {
+        int[] xpoints = { xPos, xPos + (ancho/2), xPos - (ancho/2) };
+        int[] ypoints = { yPos, yPos + alto, yPos + alto };
+        borrar(new Polygon(xpoints, ypoints, 3));
     }
 
     /**

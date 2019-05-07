@@ -32,3 +32,5 @@
  7- Modificar las clases Rectangulo, Circulo y Triangulo para
     que el color sea de la clase Color y no String. Agregar los
     setters y getters necesarios.
+
+
