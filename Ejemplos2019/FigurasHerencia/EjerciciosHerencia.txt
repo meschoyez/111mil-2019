@@ -1,0 +1,11 @@
+Ejercicios para proyecto con herencia
+
+ 1- Completar la clase Triangulo (superficie y perimetro)
+
+ 2- Agregar la clase Circulo que hereda de FiguraGeometrica
+
+ 3- Hacer que las FigurasGeometricas se muevan: 
+    a- Construya un objeto gráfico de cada tipo
+    b- Muestre los objetos gráficos en el canvas
+    c- Haga que el rectángulo se mueva a la derecha, el triángulo hacia
+       arriba y el círculo en diagonal hacia abajo a la izquierda

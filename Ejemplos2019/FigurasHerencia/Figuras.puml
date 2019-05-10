@@ -1,0 +1,14 @@
+@startuml
+class figurasherencia.FIgurasHerencia
+class figurasherencia.FiguraGeometrica
+class figurasherencia.Rectangulo
+class figurasherencia.Triangulo
+class java.awt.Color
+figurasherencia.FIgurasHerencia ..> java.awt.Color
+figurasherencia.FiguraGeometrica ..> java.awt.Color
+figurasherencia.Rectangulo --|> figurasherencia.FiguraGeometrica
+figurasherencia.Rectangulo ..> java.awt.Color
+figurasherencia.Triangulo --|> figurasherencia.FiguraGeometrica
+figurasherencia.Triangulo ..> java.awt.Color
+
+@enduml
