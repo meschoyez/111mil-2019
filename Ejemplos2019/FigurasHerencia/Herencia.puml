@@ -1,0 +1,31 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class FiguraGeometrica {
+    - Integer : x
+    - Integer : y
+    - Color: color
+    + FiguraGeometrica (color)
+    + FiguraGeometrica (x, y, color)
+}
+
+class Rectangulo {
+    - Double : largo
+    - Double : ancho
+}
+
+class Triangulo {
+    - Double : base
+    - Double : altura
+}
+
+class Circulo {
+    - Double : radio
+}
+
+FiguraGeometrica <|-- Rectangulo
+FiguraGeometrica <|-- Triangulo
+FiguraGeometrica <|-- Circulo
+
+@enduml
