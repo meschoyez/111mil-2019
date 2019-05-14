@@ -9,3 +9,12 @@ Ejercicios para proyecto con herencia
     b- Muestre los objetos gráficos en el canvas
     c- Haga que el rectángulo se mueva a la derecha, el triángulo hacia
        arriba y el círculo en diagonal hacia abajo a la izquierda
+
+ 4- Colocar varias figuras geometricas en la misma colección y hacer
+    que se muestren devuelvan por pantalla superficie y perimetro
+
+ 5- Hacer que las figuras geometricas se muestren en el Canvas
+
+ 6- Pedirle a todas la figuras de la colección que se muevan en
+    direcciones aleatorias
+    
