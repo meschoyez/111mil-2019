@@ -1,0 +1,43 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide circle
+
+class FigurasHerencia {
+    - ArrayList<FiguraGeometrica> : lista
+    + MoverFigura ()
+}
+
+class FiguraGeometrica {
+    - Integer : x
+    - Integer : y
+    - Color: color
+    + FiguraGeometrica (color)
+    + FiguraGeometrica (x, y, color)
+    + Mover ()
+}
+
+class Rectangulo {
+    - Double : largo
+    - Double : ancho
+    + Mover ()
+}
+
+class Triangulo {
+    - Double : base
+    - Double : altura
+    + Mover ()
+}
+
+class Circulo {
+    - Double : radio
+    + Mover ()
+}
+
+FiguraGeometrica <|-- Rectangulo
+FiguraGeometrica <|-- Triangulo
+FiguraGeometrica <|-- Circulo
+
+FigurasHerencia --> FiguraGeometrica
+
+@enduml
