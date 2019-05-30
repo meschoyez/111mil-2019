@@ -11,7 +11,7 @@ import java.awt.Color;
  *
  * @author meschoyez
  */
-public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
     private Integer x, y;
     private Color color;
 
@@ -69,9 +69,7 @@ public class FiguraGeometrica {
         this.color = color;
     }
 
-    public void mover (Canvas c, Integer destX, Integer destY) {
-
-    }
+    public abstract void mover (Canvas c, Integer destX, Integer destY);
     
     
 }

@@ -8,30 +8,37 @@ class FigurasHerencia {
     + MoverFigura ()
 }
 
-class FiguraGeometrica {
-    - Integer : x
-    - Integer : y
+class FiguraGeometrica <<abstract>> {
+    - Integer : x, destX
+    - Integer : y, destY
+    - Double: despX, despY
     - Color: color
     + FiguraGeometrica (color)
     + FiguraGeometrica (x, y, color)
     + Mover ()
+    + setDestino (x, y)
+    + CalcularNuevaPosicion ()
+    + MoverUnLugar()
 }
 
 class Rectangulo {
     - Double : largo
     - Double : ancho
     + Mover ()
+    + MoverUnLugar()
 }
 
 class Triangulo {
     - Double : base
     - Double : altura
     + Mover ()
+    + MoverUnLugar()
 }
 
 class Circulo {
     - Double : radio
     + Mover ()
+    + MoverUnLugar()
 }
 
 FiguraGeometrica <|-- Rectangulo
