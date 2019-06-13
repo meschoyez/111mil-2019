@@ -24,3 +24,25 @@ Tomando el ejemplo donde cada figura se mueve en forma independiente hacer:
 
  7- Implementar los métodos mover a cada clase
 
+ -----
+
+ 8- Agregar a la superclase FiguraGeometrica los campos destX y destY y el
+    método setDestino(x,y)
+
+ 9- Agregar a la superclase FiguraGeometrica el método CalcularNuevaPosicion()
+    que actualiza la posición actual del objeto acercándolo a su destino.
+    Tener en cuenta que se debe calcular el movimiento en ambos ejes y que
+    no debe actualizar su posición si ya se encuentra en el destino fijado.
+
+10- Implementar el método MoverUnLugar() en todas las subclases de
+    FiguraGeometrica
+   
+11- Modificar el método MoverUnLugar() para que las figuras geométricas se
+    mantengan siempre en movimiento. Esto es, si la figura llegó a destino,
+    debe elegir un nuevo destino y desplazarse hacia él. Tener en cuenta que
+    los destinos elegidos deben ser aleatorios y estar dentro de la zona de
+    graficación.
+    Piense donde realizará la consulta para saber que está en el destino
+    esperado y así establecer un nuevo destino.
+    También se debe modificar el método MoverFiguras() para que se ejecute
+    indefinidamente hasta cerrar la ventana.
