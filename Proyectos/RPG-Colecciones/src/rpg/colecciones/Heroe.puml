@@ -1,0 +1,30 @@
+@startuml Heroe
+
+skinparam ClassAttributeIconSize 0
+hide circle
+
+class Heroe {
+    - Bolsa bolsa
+    - Integer maxVida
+    - Integer vida
+    - Objetos objeto
+    + TomarObjetoDelSuelo (Objeto obj)
+    + DejarObjeto (String nombre)
+    + ElegirArma (String nombre)
+    + RecargarArma (String nombre)
+    + Atacar ()
+}
+
+class Bolsa {
+}
+
+class Objetos <<Abstract>>{
+}
+
+
+
+Bolsa <- Heroe
+Heroe --> Objetos
+Bolsa --> Objetos
+
+@enduml

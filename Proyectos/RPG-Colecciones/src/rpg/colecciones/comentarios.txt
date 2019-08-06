@@ -1,0 +1,15 @@
+Repaso de colecciones
+
+* Las listas (List) coleccionan objetos en el orden que se agreguen.
+ - ArrayList
+ - LinkedList
+
+Los ArrayList me permiten coleccionar objetos en el orden que
+deseo. Los recupero por posición o búsqueda por comparación.
+
+* Los mapas (Map) coleccionan objetos en un orden particular
+ - TreeMap -> Ordena por el orden natural
+ - HashMap -> Ordena por valor de la hash
+
+Vinculan una clave con un valor.
+

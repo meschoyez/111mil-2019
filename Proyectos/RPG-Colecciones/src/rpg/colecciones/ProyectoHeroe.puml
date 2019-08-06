@@ -1,0 +1,70 @@
+@startuml ProyectoHeroe
+
+skinparam ClassAttributeIconSize 0
+hide circle
+
+class Heroe {
+    - Bolsa bolsa
+    - Integer maxVida
+    - Integer vida
+    - Objetos objeto
+    + TomarObjetoDelSuelo (Objeto obj)
+    + DejarObjeto (String nombre)
+    + ElegirArma (String nombre)
+    + RecargarArma (String nombre)
+    + Atacar ()
+}
+
+class Bolsa {
+    - Integer PESO_MAXIMO
+    - TreeMap<String, Objetos> porNombre
+    + addObjeto (Objetos obj)
+    + Objetos getObjeto (String nombre)
+    + ArrayList<Objetos> getObjetosEnLaBolsa()
+    + Objetos getEspada ()
+    + Integer getPesoLibre ()
+    + void addPeso (Integer peso)
+}
+
+class Objetos <<Abstract>>{
+    - Integer peso
+    - String nombre
+}
+
+
+class Armas <<Abstract>> {
+    - Integer alcance
+    - Integer danio
+    + Atacar () : abstract
+    + RecargarArma (Objetos obj)
+}
+
+class Espada {
+
+}
+
+class Ballesta {
+    - Flechas flecha
+}
+
+class Flechas {
+    - Integer danio
+    - Integer cantidad
+    + UsarFlecha()
+}
+
+
+
+Bolsa <- Heroe
+Heroe --> Objetos
+Bolsa --> Objetos
+
+Objetos <|- Armas
+Objetos <|- Flechas
+Armas <|-- Espada
+Armas <|-- Ballesta
+
+Flechas <- Ballesta
+
+
+@enduml

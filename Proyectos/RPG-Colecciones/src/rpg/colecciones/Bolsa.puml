@@ -1,0 +1,29 @@
+@startuml Bolsa
+
+skinparam ClassAttributeIconSize 0
+hide circle
+
+class Heroe {
+    - Bolsa bolsa
+    - Objetos objeto
+}
+
+class Bolsa {
+    - Integer PESO_MAXIMO
+    - TreeMap<String, Objetos> porNombre
+    + addObjeto (Objetos obj)
+    + Objetos getObjeto (String nombre)
+    + ArrayList<Objetos> getObjetosEnLaBolsa()
+    + Objetos getEspada ()
+    + Integer getPesoLibre ()
+    + void addPeso (Integer peso)
+}
+
+class Objetos <<Abstract>>{
+}
+Bolsa <- Heroe
+Heroe --> Objetos
+Bolsa --> Objetos
+
+
+@enduml
