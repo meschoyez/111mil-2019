@@ -2,6 +2,8 @@
  * Modela los objetos que el héroe lleva en su bolsa
  */
 
+package rpg.colecciones;
+
 public abstract class Objetos {
     private Integer peso;
     private String nombre;

@@ -45,7 +45,7 @@ public class Bolsa {
     }
 
     /** Quita un objeto de la bolsa, si .
-     *  @param obj El objeto a quitar de la bolsa.
+     *  @param nombre El objeto a quitar de la bolsa.
      *  @throws NullPointerException Cuando el objeto no está en la bolsa.
      */
     public Objetos getObjeto (String nombre) {
