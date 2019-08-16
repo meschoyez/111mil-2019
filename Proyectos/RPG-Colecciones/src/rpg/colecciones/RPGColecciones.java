@@ -5,6 +5,8 @@
  */
 package rpg.colecciones;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author meschoyez
@@ -13,8 +15,18 @@ public class RPGColecciones {
 
 public static void main(String[] args) throws Exception {
         System.out.println("Hello Java");
+
+        String t = "Hola   estamos probando esto";
+        ArrayList<String> a = new ArrayList<String>();
+        for (String tmp : t.split(" ")) {
+            a.add(tmp);
+        }
+        System.out.println(a);
+
+
         // ProbarBallesta();
          ProbarBolsa();
+         ProbarBolsaConDuplicados();
         // ProbarHeroe();
     }
 
@@ -229,5 +241,9 @@ public static void main(String[] args) throws Exception {
 
     }
 */
+
+    private static void ProbarBolsaConDuplicados() {
+
+    }
     
 }

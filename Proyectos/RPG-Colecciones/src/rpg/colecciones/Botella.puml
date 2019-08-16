@@ -1,0 +1,47 @@
+@startuml Botella
+
+skinparam ClassAttributeIconSize 0
+hide circle
+
+
+class Objetos <<Abstract>>{
+    - Integer peso
+    - String nombre
+}
+
+class Botella {
+    - Integer PESO_PROPIO = 2
+    - Liquido contenido
+    + GenerarNombre ()
+    + LlenarBotella (Liquido l)
+    + VaciarBotella ()
+    + isVacia ()
+    + hasElixir ()
+    + hasAgua ()
+    + hasVino ()
+}
+
+
+class Liquido <<Abstract>> {
+    - String nombre
+    - Integer energia
+    - Integer peso
+}
+
+class Elixir {
+}
+
+class Agua {
+}
+
+class Vino {
+}
+
+Objetos <|-- Botella
+
+Liquido <|-- Elixir
+Liquido <|-- Agua
+Liquido <|-- Vino
+Liquido <-- Botella
+
+@enduml
